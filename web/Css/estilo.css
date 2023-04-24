@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cont1{
+    width: 1862px;
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+
+
+}
+#titulo{
+    width: 350px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 15px;
+    text-align: center;
+
+}
+
+#botones{
+    width: 1500px;
+    height: 60px;
+    background-color: #999999;
+    align-content: space-around;
+    justify-content: right;
+    display: flex;
+}
+#Lateral{
+    width: 350px;
+    height: 870px;
+    background-color:orange;
+    text-align: center;
+    color: white;
+    font-size:22px;
+
+
+
+}
+.linea {
+    border-bottom: 1px solid white;
+    height: 60px;
+    max-width: 350px;
+    padding-top: 25px;
+    margin: 1px auto 0 auto;
+
+}
+#Dashboard{
+    width: 1512px;
+    height: 870px;
+    background-color:green;
+    display: flex;
+    margin-top: -872px;
+    margin-left: 350px;color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 10px; 
+
+}
+.Caja1{
+    width: 1350px;
+    height:60px ;
+    border:black solid 1px;
+    background-color: white;
+    grid-column: 1;
+    margin-top: 20px;
+}
+.Caja2{
+   
+
+}
+.Caja3{
+ 
+}
+.Caja4{
+
+  
+}
+.Caja5{
+
+ 
+}
+.Caja6{
+
+   
+}
+.Caja7{
+  
+}
