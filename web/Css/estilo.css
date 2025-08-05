@@ -1,94 +1,86 @@
-*{
-    margin: 0px;
-    padding: 0px;
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#cont1{
-    width: 1862px;
-    height: 60px;
+/* FUENTES GENERALES */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ENCABEZADO */
+.encabezado {
     display: flex;
-    align-items: flex-end;
-
-
-}
-#titulo{
-    width: 350px;
+    justify-content: space-between;
+    align-items: center;
     height: 60px;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-size: 20px;
-    font-weight: lighter;
-    letter-spacing: 15px;
-    text-align: center;
-
+    letter-spacing: 10px;
 }
 
-#botones{
-    width: 1500px;
-    height: 60px;
-    background-color: #999999;
-    align-content: space-around;
-    justify-content: right;
-    display: flex;
-}
-#Lateral{
-    width: 350px;
-    height: 870px;
-    background-color:orange;
-    text-align: center;
-    color: white;
-    font-size:22px;
-
-
-
-}
-.linea {
-    border-bottom: 1px solid white;
-    height: 60px;
-    max-width: 350px;
-    padding-top: 25px;
-    margin: 1px auto 0 auto;
-
-}
-#Dashboard{
-    width: 1512px;
-    height: 870px;
-    background-color:green;
-    display: flex;
-    margin-top: -872px;
-    margin-left: 350px;color: white;
-    font-size: 15px;
-    font-weight: lighter;
-    letter-spacing: 10px; 
-
-}
-.Caja1{
-    width: 1350px;
-    height:60px ;
-    border:black solid 1px;
+.botones img {
+    margin-left: 15px;
     background-color: white;
-    grid-column: 1;
-    margin-top: 20px;
 }
-.Caja2{
-   
 
+/* CONTENEDOR PRINCIPAL */
+.contenedor {
+    display: flex;
+    min-height: calc(100vh - 60px); /* resto del header */
 }
-.Caja3{
- 
-}
-.Caja4{
 
-  
+/* MENÚ LATERAL */
+.menu-lateral {
+    width: 300px;
+    background-color: orange;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.Caja5{
 
- 
+.menu-lateral .opcion {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    cursor: pointer;
 }
-.Caja6{
 
-   
+.menu-lateral .opcion:hover {
+    background-color: #e69500;
 }
-.Caja7{
-  
+
+/* DASHBOARD */
+.dashboard {
+    flex: 1;
+    background-color: green;
+    padding: 20px;
+    color: white;
+}
+
+.dashboard h1 {
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+/* CAJAS */
+.caja {
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    height: 60px;
 }

@@ -1,36 +1,46 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="Css/estilo.css" rel="stylesheet" type="text/css"/>
-    </head>
-    <body>
-        <div id="cont1"> 
-            <div id="titulo"><img src="Imagenes/blanco-engrane.png" width="40" height="40"/>SISTEMAS</div>
-            <div id="botones" style=""><img src="Imagenes/correo.png" width="30" height="30"/><img src="Imagenes/menu.png" width="30" height="30"/><img src="Imagenes/campana.png" width="30" height="30"/><img src="Imagenes/usu2.png" width="30" height="30"/></div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Examen - Lenguaje de Programación</title>
+    <link href="Css/estilo.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <!-- ENCABEZADO SUPERIOR -->
+    <header class="encabezado">
+        <div class="titulo">
+            <img src="Imagenes/blanco-engrane.png" alt="Icono" width="40" height="40">
+            SISTEMAS
         </div>
-        <div id="Lateral"> 
-            <div class="linea">Dashboard </div>  
-            <div class="linea">Lt Elements</div>
-            <div class="linea">Tabs & Panels </div>
-            <div class="linea">Responsive Table </div>
-            <div class="linea">Forms</div>
-            <div class="linea">Empty Page</div> 
+        <div class="botones">
+            <img src="Imagenes/correo.png" alt="Correo" width="30" height="30">
+            <img src="Imagenes/menu.png" alt="Menú" width="30" height="30">
+            <img src="Imagenes/campana.png" alt="Campana" width="30" height="30">
+            <img src="Imagenes/usu2.png" alt="Usuario" width="30" height="30">
         </div>
-        <div id="Dashboard">Dashboard 
-            <br>
-            <div class="Caja1"></div>
-        
-            <div class="Caja6"></div>
-            <div class="Caja7"></div>
-            <div class="Caja8"></div>
-            <div class="Caja9"></div>
-        </div>
-    </body>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div class="contenedor">
+        <!-- MENÚ LATERAL -->
+        <nav class="menu-lateral">
+            <div class="opcion">Dashboard</div>
+            <div class="opcion">UI Elements</div>
+            <div class="opcion">Tabs & Panels</div>
+            <div class="opcion">Responsive Table</div>
+            <div class="opcion">Forms</div>
+            <div class="opcion">Empty Page</div>
+        </nav>
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main class="dashboard">
+            <h1>Dashboard</h1>
+            <div class="caja caja1"></div>
+            <div class="caja caja2"></div>
+            <div class="caja caja3"></div>
+            <div class="caja caja4"></div>
+        </main>
+    </div>
+</body>
 </html>
